@@ -1,0 +1,18 @@
+.leftSide, .rightSide, .splitter {
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+}
+
+.splitter {
+  top:0;
+  width: 2px;
+  z-index: 10;
+  cursor: col-resize;
+}
+
+.leftSide > div, .rightSide > div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}

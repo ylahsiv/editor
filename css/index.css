@@ -1,0 +1,66 @@
+:root {
+  --f10: 10px;
+  --f11: 11px;
+  --f12: 12px;
+  --f13: 13px;
+  --f14: 14px;
+  --f15: 15px;
+  --f16: 16px;
+  --f17: 17px;
+  --main-width: 300px;
+  --font-family: "Fira Code Medium"
+}
+
+body {margin: 0;}
+
+a.disabled {
+  cursor: default;
+  pointer-events: none;
+  color: gray !important;
+}
+
+#atl {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: transparent;
+}
+
+#animation {
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  z-index: 101;
+  visibility: hidden;
+  position: absolute;
+}
+
+#nonTextFiles {
+  top: 0;
+  z-index: 10;
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+  position: absolute;
+  visibility: hidden;
+  background-color: white;
+}
+
+#statusBar {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+  height: 20px;
+  color: black;
+  border-top: solid;
+  position: absolute;
+  border-top-width: 1px;
+  background-color: #eee;
+  font-size: var(--f13);
+  border-top-color: lightgray;
+  font-family: var(--font-family);
+}

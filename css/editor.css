@@ -1,0 +1,24 @@
+#editor {
+  height: inherit;
+}
+
+.ace_tooltip {
+  font-size: var(--f11);
+  font-family: var(--font-family);
+}
+
+.ace_editor.ace_autocomplete {
+  font-size: var(--f11);
+}
+
+.ace_status-indicator {
+  color: gray;
+  position: absolute;
+  right: 0;
+  border-left: 1px solid;
+}
+
+.ace_layer .ace_text-layer {
+  font-size: var(--f12) !important;
+  font-family: var(--font-family) !important;
+}

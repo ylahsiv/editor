@@ -1,0 +1,12 @@
+#terminal {
+  bottom: 21px;
+  right: 0;
+  height: 35%;
+  width: 100%;
+  z-index: 10;
+  visibility: hidden;
+  position: absolute;
+  border-top-width: 1px;
+  border-top-color: #aaa;
+  border-top-style: solid;
+}

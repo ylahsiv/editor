@@ -1,0 +1,91 @@
+#tab_browsing_area {
+	margin: 0;
+	height: 24px;
+	display: block;
+	text-align: left;
+	border-bottom: 1px solid lightgray;
+}
+
+#tab_browsing_list {
+  margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	list-style-type: none;
+}
+
+#tab_browsing_list li {
+	float: left;
+}
+
+#tab_browsing_list a {
+  float: left;
+	display: block;
+	cursor: pointer;
+	line-height:8px;
+	position: relative;
+	text-decoration: none;
+}
+
+#tab_browsing_list a span {
+    margin-top: -1px;
+	display: block;
+	text-align: center;
+	font-weight: lighter;
+	font-size: var(--f13);
+	border-left-width: 0;
+	padding: 0 2px 7px 4px;
+	border: 1px solid #888;
+	font-family: var(--font-family);
+	position: relative;	/*IE 6 hack */
+}
+
+#tab_browsing_list a b {
+	display: block;
+}
+
+#tab_browsing_list a .edited {
+	display: none;
+}
+
+#tab_browsing_list a.edited .edited {
+	display: inline;
+}
+
+#tab_browsing_list a img {
+	margin-left: 7px;
+}
+
+#tab_browsing_list a.edited img {
+	margin-left: 3px;
+}
+
+#tab_browsing_list a:hover span {
+	background: #f0f0f0;
+}
+
+#tab_browsing_list .selected a span {
+	color: black;
+	/*font-weight: bold;*/
+	background: white;
+	border-bottom-color: dodgerblue;
+	box-shadow: inset 0 -2.5px 0 0 dodgerblue;
+}
+
+#tab_browsing_list .selected:hover a span {
+	background: #ebebeb;
+}
+
+.tabbutton:hover {
+  top:4px;
+  position: relative;
+}
+
+.tabbutton:active {
+  top:4px;
+  position: relative;
+}
+
+.tabbutton, .tabimage {
+  top: 3px;
+  position: relative;
+}
